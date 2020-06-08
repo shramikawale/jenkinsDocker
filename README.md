@@ -1,4 +1,4 @@
-# jenkinsD
+# jenkins installation with Docker
 Dockerfile and compose file for jenkins Setup.
 # First run the docker image build command inside the clone repository:
     docker build -t jenkins .
