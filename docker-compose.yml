@@ -1,0 +1,13 @@
+version: '2.2'
+services:
+    jenkins:
+        container_name: jenkins
+        image: jenkins:latest
+        restart: always
+        ports:
+          - "8080:8080"
+        volumes:
+          - /var/run/docker.sock:/var/run/docker.sock
+          - $HOME/jenkinss:/var/jenkins_home 
+          - $HOME/jenkinss:/var/jenkins_home/downloads 
+          - /usr/bin/docker:/usr/bin/docker 
