@@ -1,5 +1,8 @@
 # jenkins installation with Docker
+
+Pre-requisite install docker and have user permission to use docker without sudo on host machine.
 Dockerfile and compose file for jenkins Setup.
+
 # First run the docker image build command inside the clone repository:
     docker build -t jenkins .
     docker images -a
