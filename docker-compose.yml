@@ -1,7 +1,8 @@
 version: '2.2'
 services:
     jenkins:
-        image: 'jenkins/jenkins:lts'
+        image: jenkins/jenkins:lts
+        container_name: jenkins
         privileged: true
         user: root
         ports:
